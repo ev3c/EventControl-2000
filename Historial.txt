@@ -1,0 +1,118 @@
+EventControl 2000 v1.0 revisión 9ª
+==================================
+* Ocultada la carpeta del programa
+* Aumentado el delay al salir para ver ventana bajo xp
+* 
+
+
+EventControl 2000 v1.0 revisión 8ª
+==================================
+* Desactivado número de registro cuando se entra correctamente.
+* Solucionados otros bug's menores
+
+
+EventControl 2000 v1.0 revisión 7ª
+==================================
+* Desactivados botones Mover en Programas.
+* Añadido acceso restringido por contraseña a los programas
+
+
+
+EventControl 2000 v1.0 revisión 6ª
+==================================
+* Solucionado error de retraso con el Timer del VB6. Se vuelve a 
+utilizar la hora del sistema pero se sigue trabajando con fecha propia.
+* Ahora se compacta la base de datos Historial al Borrarlo
+
+
+
+EventControl 2000 v1.0 revisión 5ª
+==================================
+* Añadido control desde barra de tareas
+* Solventado error en Historial de Internet
+* Se pide contraseña para acceder al programa mediante HotKeys
+* Solucionado error de detección si se cambiaba la fecha del sitema
+* Solucionado error de detección de páginas web bajo ADSL y Red.
+* Solucionado error con nombres web mayores de 255 caracteres.
+
+
+
+EventControl 2000 v1.0 revisión 4ª
+==================================
+* Se añade HISTORIAL de paginas visitadas de Internet.
+* Se protege con contraseña la opción Pausar/Reactivar
+
+
+
+EventControl 2000 v1.0 revisión 3ª
+==================================
+* Se añade link a ShareIt para pago con Tarjeta de Crédito
+
+
+
+EventControl 2000 v1.0 revisión 2ª
+==================================
+* Se añade combinación de teclas de acceso directo Ctrl Alt Mayus E
+* Añadido nuevo icono para visualizar Pausar/Reactivar 
+* Solucionado problema de detección del módem bajo Windows NT/2k
+* Se visualiza la ventana principal cuando se abre opción desde
+el menú del icono de la barra de tareas
+
+
+
+EventControl 2000 v1.0 revisión 1ª
+==================================
+* Solucionado problema con la instalación en Inglés. Era culpa del
+Empaquetador de Aplicaciones del VB6
+* Solucionado problema de ordenación en los listados
+* Añadida contraseña a modificar programas.
+* Solucionado error por el cual no se detectaba ni el Salva Pantallas
+ni los programas arrancados bajo NT
+
+
+
+EventControl 2000 v1.0
+======================
+* Cambiado el código fuente para detectar si el módem está conectado
+* Se añaden los e-mail de registro on-line
+* Se encripta la contraseña
+* Solo se permiten entrar numeros y letras en las contraseñas
+* Se pone contraseña en la base de datos
+* Se añaden tooltiptext's de ayuda.
+* Se anula la opción de controlar eventos cada x segundos
+* Se añade registro on-line mediante código encriptado
+* Se añade el idioma Català
+* Se impide arrancar el programa si este ya está funcionando
+* Se oculta el programa de Ctrl+Alt+Supr
+* Solucionado error por el que se pedía la contraseña al entrar en el programa si no estaba
+activado el checkbox de arranque automático al entrar en windows
+* Solucionado error que retrasaba la salida del programa. Por Fin !!!!!!
+* Se añade la opción de Imprimir los Eventos.
+* Se crea una variable global gstrFormatoFecha para las fechas en Inglés y Español
+* Se elimina el nombre del programa del título de las ventanas secundarias.
+* Se añade en Borrar Eventos la fecha desde y la fecha hasta la que se quiere borrar.
+* Cambiada el comando cmdVerFecha por un DataTimePicker para facilitar la selección 
+de fechas. Muestra la fecha en formato Español e Inglés dependiendo del Idioma seleccionado.
+* Solucionado problema al pulsar dos veces sobre el icono de la barra de tareas ya que la
+ventana de EventControl no se ponia en primer plano.
+* Modificado ComboBox cboPrg para que no se pueda borrar el ítem seleccionado
+* Se captura el error que se producia si se pulsaba sobre el icono de la barra de tareas si no
+se había cerrado un formulario modal.
+* Al pulsar el botón Aceptar despues de Añandir o Modificar se desplaza el cursor al último
+elemtento de la base de datos de programas definidos por el usuario
+* Reparado error si se tenia seleccionado el último programa en cboPrg y se salia de Programas
+borrando el último programa definido por el usuario.
+* Se amplia la definición de los programas de 10 a 15 caracteres y se añaden por defecto los
+programas del Officce 2000.
+* Se cambia ADO por DAO y se testea el funcionamiento con DAO.
+* Se modifica la función Hora_Suma para que aparezca en Día, Mes y Año la hora en 
+formato H:MM, con 0:00 si no hay datos.
+* Se modifica la función que muestra el tiempo transcurrido en cada Sesión para que no 
+se próduca un error cuando el ordenador está configurado para trabajar con formato 12hAM/PM.
+* Añadido el número de Dia, Mes y Año tras la etiqueta Dia. Mes y Año. 
+* Cambiado Crono On y Crono Off por On Crono y Off Crono.
+* Se cierran los Recorset grsEvento y grsPrograma y se asignan a Nothing al cerrar la 
+aplicación para ver si el cierre de esta se realiza más rápido.
+* Se incluye el Comando Eventos dentro del Formulario Programas y se llama Borrar Eventos.
+* Se añade el Comando Imprimir.
+* Reparado error en Timer cuando se llamaba al programa desde el PopUp Menú.

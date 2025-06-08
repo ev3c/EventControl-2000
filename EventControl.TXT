@@ -1,0 +1,3 @@
+El asistente ha generado 3 archivos .cab para su aplicación. Los archivos .cab están en 'C:\Archivos de programa\Microsoft Visual Studio\VB98\EventControl\Paquete'.
+
+También hay un archivo de proceso por lotes en el directorio de soporte (C:\Archivos de programa\Microsoft Visual Studio\VB98\EventControl\Paquete\Support\EventControl.BAT) que le permitirá volver a generar los archivos .cab en caso de que realice modificaciones a algunos de los archivos.

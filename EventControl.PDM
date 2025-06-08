@@ -1,0 +1,168 @@
+[Root]
+Most Recent Package=EventControl 2000
+
+
+[Package|EventControl 2000|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Archivos de programa\Microsoft Visual Studio\VB98\EventControl Empaquetado
+
+[Package|EventControl 2000|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=No
+
+[Package|EventControl 2000|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|EventControl 2000|Files Found]
+
+[Package|EventControl 2000|Files Released]
+
+[Package|EventControl 2000|Missing Dependency Information]
+C:\Archivos de programa\Microsoft Visual Studio\VB98\EventControl\Psapi.dll=
+
+[Package|EventControl 2000|Out-of-Date Dependency Information]
+
+[Package|EventControl 2000|Files Added]
+c:\archivos de programa\microsoft visual studio\vb98\eventcontrol\db en blanc\eventcontrol.mdb=
+c:\archivos de programa\microsoft visual studio\vb98\eventcontrol\db en blanc\historial.mdb=
+c:\archivos de programa\microsoft visual studio\vb98\eventcontrol\eventcontrol.txt=
+c:\archivos de programa\microsoft visual studio\vb98\eventcontrol\reg_esp.txt=
+c:\archivos de programa\microsoft visual studio\vb98\eventcontrol\reg_cat.txt=
+c:\archivos de programa\microsoft visual studio\vb98\eventcontrol\reg_eng.txt=
+c:\archivos de programa\microsoft visual studio\vb98\eventcontrol\historial.txt=
+
+[Package|EventControl 2000|Files Removed]
+c:\archivos de programa\microsoft visual studio\vb98\eventcontrol\eventcontrol.txt=
+
+[Package|EventControl 2000|Files In Project]
+C:\Archivos de programa\Microsoft Visual Studio\VB98\EventControl\EventControl.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\VB6ES.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\EventControl\Psapi.dll=Yes
+C:\Archivos de programa\Archivos comunes\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJET35.DLL=Yes
+C:\WINDOWS\SYSTEM\msjter35.dll=Yes
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=Yes
+C:\WINDOWS\SYSTEM\vbajet32.dll=Yes
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=Yes
+C:\WINDOWS\SYSTEM\msrd2x35.dll=Yes
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\SYSTEM\VB5DB.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCC2ES.DLL=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\CMDLGES.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\EventControl\db en blanc\EventControl.mdb=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\EventControl\db en blanc\Historial.mdb=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\EventControl\EventControl.TXT=No
+C:\Archivos de programa\Microsoft Visual Studio\VB98\EventControl\reg_esp.txt=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\EventControl\reg_cat.txt=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\EventControl\reg_eng.txt=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\EventControl\Historial.txt=Yes
+
+[Package|EventControl 2000|Configure Registry Files]
+Applicable=No
+
+[Package|EventControl 2000|Configure Remote Servers]
+Applicable=No
+
+[Package|EventControl 2000|Install Locations]
+C:\Archivos de programa\Microsoft Visual Studio\VB98\EventControl\EventControl.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB6ES.DLL=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\EventControl\Psapi.dll=$(WinSysPath)
+C:\Archivos de programa\Archivos comunes\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msjter35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msrd2x35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCC2ES.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\CMDLGES.DLL=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\EventControl\db en blanc\EventControl.mdb=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\EventControl\db en blanc\Historial.mdb=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\EventControl\reg_esp.txt=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\EventControl\reg_cat.txt=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\EventControl\reg_eng.txt=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\EventControl\Historial.txt=$(AppPath)
+
+[Package|EventControl 2000|Configure Shared Files]
+Applicable=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\EventControl\EventControl.exe=No
+C:\Archivos de programa\Microsoft Visual Studio\VB98\EventControl\db en blanc\EventControl.mdb=No
+C:\Archivos de programa\Microsoft Visual Studio\VB98\EventControl\db en blanc\Historial.mdb=No
+C:\Archivos de programa\Microsoft Visual Studio\VB98\EventControl\reg_esp.txt=No
+C:\Archivos de programa\Microsoft Visual Studio\VB98\EventControl\reg_cat.txt=No
+C:\Archivos de programa\Microsoft Visual Studio\VB98\EventControl\reg_eng.txt=No
+C:\Archivos de programa\Microsoft Visual Studio\VB98\EventControl\Historial.txt=No
+
+[Package|EventControl 2000|Distribution]
+Type=multi
+Size=1.44 MB
+Title=EventControl 2000
+
+[Package|EventControl 2000|IconGroups]
+Group0=EventControl 2000
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|EventControl 2000|EventControl 2000]
+Icon1=EventControl.exe
+Title1=EventControl 2000
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=Historial.txt
+Title2=Historial
+StartIn2=$(AppPath)
+Key2=Icon6
+Icon3=reg_esp.txt
+Title3=Formulario de Registro
+StartIn3=$(AppPath)
+Key3=Icon7
+Icon4=reg_cat.txt
+Title4=Formulari de Registre
+StartIn4=$(AppPath)
+Key4=Icon8
+Icon5=reg_eng.txt
+Title5=Register Form
+StartIn5=$(AppPath)
+Key5=Icon9
+
+[Package|EventControl 2000|Package]
+PackageFolder=C:\Archivos de programa\Microsoft Visual Studio\VB98\EventControl Empaquetado
+ProjectFolder=C:\Archivos de programa\Microsoft Visual Studio\VB98\EventControl
+ServerSideCab=
+File1=C:\Archivos de programa\Microsoft Visual Studio\VB98\EventControl Empaquetado\setup.exe
+File2=C:\Archivos de programa\Microsoft Visual Studio\VB98\EventControl Empaquetado\Setup.Lst
+File3=C:\Archivos de programa\Microsoft Visual Studio\VB98\EventControl Empaquetado\EventC1.CAB
+File4=C:\Archivos de programa\Microsoft Visual Studio\VB98\EventControl Empaquetado\EventC2.CAB
+File5=C:\Archivos de programa\Microsoft Visual Studio\VB98\EventControl Empaquetado\EventC3.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
